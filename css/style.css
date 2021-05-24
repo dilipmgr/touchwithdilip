@@ -1,0 +1,48 @@
+:root{
+    --bg-size:100% 100%;
+    --btn-font:1.5rem;
+}
+/* html{
+    font-size:62.5%;
+} */
+body{
+    background: LINEAR-GRADIENT(TO RIGHT, RGB(203, 200, 200), RGB(229, 183, 230));
+}
+#navbar a{
+    color:white;      
+}
+.navbar-nav li a:hover{
+    background-color: rgb(233, 144, 241);
+}
+.about_me{
+    width: auto;
+    height:25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,transparent 50%,rgba(208,206,207,0.8)50%),url('../images/Dilip.jpg');
+    background-size: var(--bg-size);
+}
+.about_me p:first-child{
+    padding-bottom: 0.2rem;
+    font-size: 1.5rem;
+}
+.about_me p{
+    font-size: 1.rem;
+    padding-bottom: 1rem;
+    color:#000;
+    
+}
+.right_div_title{
+    background:#fff;
+    /* box-shadow: 0 1rem 5rem -1rem rgba(255,255,255,0.7); */
+}
+.right_div_title h4{
+    font-size: 1.5rem;
+    padding: 3.5rem;
+}
+.old_post_img1{
+    background-image: url(../images/elon.jpg);
+    background-size: var(--bg-size);
+}
